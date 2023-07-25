@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+   
+}
+body p{
+    color:#4a5568;
+    margin-bottom: 1.75rem;
+}
+/*Top- Naviation bar starts  */
+#navbar{
+  display: flex;
+  justify-content: space-between ;
+  /* border-bottom: 1px solid #c0bebe; */
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 0px 0px 13px 3px #8888888f;
+}
+#navbar a{
+    margin:0px 6px;
+    font-size: 18px;
+    color: #a49f9f;
+}
+/* s */
+/* Top-Navigation ends */
+
+
+/* Banner starts */
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#title{
+    font-size: 1.7rem;
+    font-family: 'Galada', cursive;
+    text-shadow: 2px 2px 5px #9E9E9E;
+
+}
+/* Banner ends */
+
+
+/* navigation menu starts */
+#navigation{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#navigation ul{
+    display: flex;
+    
+}
+#navigation ul li{
+    margin: 6px 12px;
+    padding: 0px 19px;
+    font-weight: bolder;
+    color:rgb(77, 75, 75);
+}
+#navigation ul li:hover{
+    border-bottom: 4px solid #38b2ac;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* navigation menu ends */
+#motivational-quotation{
+    font-size:2rem;     color: rgb(149, 157, 157); font-family: 'Merienda One', cursive;
+}
+/* Container starts  */
+.container{
+ 
+    display: flex;
+    padding: 0px 60px;
+    /* background-color: rgba(194, 191, 191, 0.24); */
+    box-sizing: border-box;
+    
+}
+.main-content {
+    width: 90%;
+    background-color: white;
+    padding:10px 70px;
+   
+   
+}
+.main-content img{
+  width:100%;
+  height:400px;
+  border-radius:4px;
+  box-shadow: 0px 0px 9px 3px #88888861;
+   
+}
+.captions{
+    color: #38b2ac;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    padding-bottom: 25px;
+    padding-top: 17px;
+
+}
+.image{
+  width:100%;
+  height:auto;
+}
+.Info{
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.Info span{
+    color: #38b2ac;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+ul li{
+    color:#4a5568;
+}
+
+
+
+/* Side navigation starts  */
+.upper-sidebar{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 30px 0px;
+  background: url(/images/sidebar3.jpg) no-repeat center center/cover;
+  /* background-color: #38b2ac; */
+
+}
+.socialmedia-handle{
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background: url(/images/sidebar.jpg) no-repeat center center/cover; */
+  
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .sidenav a {
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    color: #41494adb;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav ul {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    /* margin-left: 20px; */
+    color: white;
+    list-style: none;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav ul li{
+      padding:6px 0px;
+      font-size: 1rem;
+  }
+  .sidenav h3{
+    padding-top: 23px;
+    margin: 0px 20px;
+    color:white;
+  }
+  
+  .sidenav a:hover {
+    color: #38b2ac;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    /* top: 0; */
+    right: 110px;
+    font-size: 1.7rem;
+    margin-left: 30px;
+    /* border:2px solid #38b2ac; border-radius: 50%; padding: 0px 3px; color:#38b2ac; */
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    /* padding: 16px; */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+/* Side navigation ends  */
+/* Container ends  */
+
+
+/* Footer starts */
+
+
+
+#footer{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center ;
+  }
+  #footer-navigation{
+    display:flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+   
+  
+  }
+  #footer-navigation a{
+    text-decoration: none;
+    color: white;
+    padding:10px 20px;
+  
+  }
+  #footer-about{
+    margin-top:10px ;
+    padding: 8px 0px;
+    background-color: rgb(52, 52, 52);
+  }
+  #Follow-bar{
+    display: flex;
+    flex-direction: column;
+    padding:10px 0px;
+  }
+  #contact-bar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding:10px 0px;
+  }
+  #terms{
+    padding:50px 0px;
+  }
+  /* Footer ends */
+  
+  
+  
+
+/* Utility Classes */
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    margin: 40px;
+}
